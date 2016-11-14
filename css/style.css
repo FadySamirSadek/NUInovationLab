@@ -1,0 +1,217 @@
+html , body{
+	width:100%;
+	height: 100%;
+	padding: 0px;
+	margin: 0px;
+	overflow: hidden;
+}
+header{
+	background-color:#2C3E50;
+	margin: 0px;
+	padding: 0px;
+	position:absolute;
+	top:0px;
+	width: 100%;
+	height: 55px;
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+h1{
+	font-size:18px;
+	color:#18BC9C;
+	padding-left: 50px;
+	padding-top: 5px;
+}
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color:white;
+
+}
+a:hover{
+  text-decoration: none;
+   color:#18BC9C;
+}
+
+
+footer{
+	position: absolute;
+	bottom: 0px;
+    font-family: 'Lato', sans-serif;
+    color:white;
+    background-color: #233140;	
+    width: 100%;
+}
+.main-nav{
+	/*These lines are used to position the list items to the Top right of the page*/
+	position: absolute;
+	top :8px;
+	right: 5px;
+	padding-right:30px;
+}
+.nav-items{
+	/*This property to remove the bullets from the unorddered list*/
+ 	 list-style-type: none;	
+ 	 font-size: 12px;
+ 	 font-weight: bold;
+ 	 color:white;
+}
+.nav-items > li{
+	/*This property to make each list child in the element that has a class nav items display vertically*/
+     display: inline;
+     padding-right: 12px;
+ }
+ .footer-text{
+ 	text-align: center;
+ }
+
+ #content{
+    font-family: 'Lato', sans-serif;
+    min-width: 100%;
+    min-height: 100%;
+    padding-left: 0px;
+
+
+ }
+ #video-container{
+ 	position: absolute; 
+    top: 0; 
+    left:0;
+    min-width: 100%;
+	min-height: 100%; 
+    z-index: -1;
+	 }
+ #page-content {
+    position:absolute;
+    top:150px; left:20px;
+    color:white;
+}
+#page-content > h1{
+	color: #18BC9C !important;
+	font-size :3em;
+	-webkit-text-fill-color: #18bc9c; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: black;
+}
+#page-content > h3{
+	color: #18BC9C !important;
+	font-size :1.5em;
+	padding-left: 50px;
+	-webkit-text-fill-color: #18bc9c; /* Will override color (regardless of order) */
+   -webkit-text-stroke-width: 0.5px;
+   -webkit-text-stroke-color: black;
+}
+#bg-video{
+	min-width: 100%;
+}
+#wraper{
+	overflow: hidden;
+	height: 100%;
+}
+
+/*Blog Page CSS*/
+.blog-post{
+	min-width: 350px;
+	min-height: 260px;
+	width:30%;
+	margin-left: 70px;
+	background-color: #f6f6f6;
+	border-bottom-left-radius: 10px;
+	border-bottom-right-radius: 10px;
+
+
+
+}
+.blog-img{
+	width: 100%;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+.blog-content{
+	color: #333;
+	font-size:15px;
+	font-family: 'Lato', sans-serif;
+}
+.blog-content > h3{
+	padding-top: 10px;
+	font-size:14px;
+	color: #bfbfbf;
+
+}
+#blog-table{
+	width: 100%;
+	padding-top: 80px;
+}
+/*Write for us section*/
+
+form > label , input , textarea , button{
+
+	margin-left:60px;
+}
+
+.write-for-us{
+	margin-bottom: 110px;
+	padding-left: 20px;
+	font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+
+}
+.submit-form{
+	background-color: #4b99ad;
+	padding :8px 15px 8px 15px;
+	cursor: pointer;
+	color:white;
+	font-weight: bold;
+	font-family: 'Roboto', sans-serif;
+
+}
+.clear-form{
+	background-color: #4b99ad;
+	padding :8px 15px 8px 15px;
+	cursor: pointer;
+	color:white;
+	font-weight: bold;
+    font-family: 'Roboto', sans-serif;
+          
+}
+.write-for-us-img{
+	position: relative;
+	left:800px;
+	bottom:210px;
+
+}
+/*Roadmap page*/
+.one-year-ago{
+	min-width: 100%;
+	height: 568px;
+	background-color: #2ecc71;
+	color:white !important;
+	font-size: 36px;
+	text-align: center;
+}
+.now{
+	min-width: 100%;
+	height: 568px;
+	background-color: #e74c3c;
+	color:white;
+	font-size: 36px;
+	text-align: center;
+
+
+}
+.upcoming-plans{
+	min-width: 100%;
+	height: 668px;
+	background-color: #3498db;
+	color:white;
+	font-size: 36px;
+	text-align: center;
+
+
+}
+.roadmap-img{
+	width:750px;
+	padding-top: 20px;
+}
