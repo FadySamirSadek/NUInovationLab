@@ -24,7 +24,16 @@ h1{
 	padding-top: 5px;
 }
 
+a:visited, a:link, a:active
+{
+    text-decoration: none;
+    color:white;
 
+}
+a:hover{
+  text-decoration: none;
+   color:#18BC9C;
+}
 
 footer{
 	position: absolute;
@@ -137,10 +146,7 @@ footer{
 }
 /*Write for us section*/
 
-form > label , input , textarea , button{
 
-	margin-left:60px;
-}
 
 .write-for-us{
 	margin-bottom: 110px;
